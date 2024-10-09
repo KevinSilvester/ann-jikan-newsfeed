@@ -1,0 +1,1490 @@
+{
+    "pagination": {
+        "last_visible_page": 1,
+        "has_next_page": false,
+        "current_page": 1,
+        "items": {
+            "count": 10,
+            "total": 10,
+            "per_page": 25
+        }
+    },
+    "data": [
+        {
+            "mal_id": 3019,
+            "url": "https://myanimelist.net/anime/3019/Lupin_III__Kiri_no_Elusive",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/6/34793.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/6/34793t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/6/34793l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/6/34793.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/6/34793t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/6/34793l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Lupin III: Kiri no Elusive"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Lupin III: Elusiveness of the Fog"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Rupan Sansei: Kiri no Elusive"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "ルパン三世 霧のエリューシヴ"
+                },
+                {
+                    "type": "English",
+                    "title": "Lupin III: Elusiveness of the Fog"
+                }
+            ],
+            "title": "Lupin III: Kiri no Elusive",
+            "title_english": "Lupin III: Elusiveness of the Fog",
+            "title_japanese": "ルパン三世 霧のエリューシヴ",
+            "title_synonyms": [
+                "Lupin III: Elusiveness of the Fog",
+                "Rupan Sansei: Kiri no Elusive"
+            ],
+            "type": "Special",
+            "source": "Manga",
+            "episodes": 1,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2007-07-27T00:00:00+00:00",
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": 27,
+                        "month": 7,
+                        "year": 2007
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Jul 27, 2007"
+            },
+            "duration": "1 hr 32 min",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": 6.74,
+            "scored_by": 2886,
+            "rank": 5603,
+            "popularity": 7710,
+            "members": 6852,
+            "favorites": 1,
+            "synopsis": "On the ocean floor, Lupin is once again seeking a treasure hoping to get on Fujiko's good side. As Zenigata chases them on sea and land, people around the gang begin to vanish mysteriously. The fog rolls in and Mamo Kyosuke appears in a burst of light; he claims to be from the future and seeks revenge on Lupin III for what Lupin XIII has done to him. Mamo hurls Lupin, Jigen, Goemon, and Zenigata 500 years into the past; as two warring factions fight over a legendary shrine dedicated to time travel, Lupin must find a way to survive the past to ensure his future.\n\n(Source: Lupin III Encyclopedia)\n\nThis movie is a remake of episode 13 in the original Lupin III series.",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": null
+            },
+            "producers": [],
+            "licensors": [
+                {
+                    "mal_id": 467,
+                    "type": "anime",
+                    "name": "Discotek Media",
+                    "url": "https://myanimelist.net/anime/producer/467/Discotek_Media"
+                }
+            ],
+            "studios": [
+                {
+                    "mal_id": 73,
+                    "type": "anime",
+                    "name": "TMS Entertainment",
+                    "url": "https://myanimelist.net/anime/producer/73/TMS_Entertainment"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/anime/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                },
+                {
+                    "mal_id": 7,
+                    "type": "anime",
+                    "name": "Mystery",
+                    "url": "https://myanimelist.net/anime/genre/7/Mystery"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 50,
+                    "type": "anime",
+                    "name": "Adult Cast",
+                    "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+                },
+                {
+                    "mal_id": 78,
+                    "type": "anime",
+                    "name": "Time Travel",
+                    "url": "https://myanimelist.net/anime/genre/78/Time_Travel"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 42,
+                    "type": "anime",
+                    "name": "Seinen",
+                    "url": "https://myanimelist.net/anime/genre/42/Seinen"
+                }
+            ]
+        },
+        {
+            "mal_id": 59770,
+            "url": "https://myanimelist.net/anime/59770/Nige_Jouzu_no_Wakagimi__Makuai_1333-nen_-_1334-nen_Rekishi",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1710/145356.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1710/145356t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1710/145356l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1710/145356.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1710/145356t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1710/145356l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Nige Jouzu no Wakagimi: Makuai (1333-nen - 1334-nen) \"Rekishi\""
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Nige Jouzu no Wakagimi Episode 9.5"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Nige Jouzu no Wakagimi Recap"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "The Elusive Samurai Episode 9.5"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "The Elusive Samurai Recap"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Nigewaka Recap"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "逃げ上手の若君: 幕間（1333年-1334年）「歴史」"
+                },
+                {
+                    "type": "English",
+                    "title": "The Elusive Samurai: Interlude (1333-1334) \"History\""
+                }
+            ],
+            "title": "Nige Jouzu no Wakagimi: Makuai (1333-nen - 1334-nen) \"Rekishi\"",
+            "title_english": "The Elusive Samurai: Interlude (1333-1334) \"History\"",
+            "title_japanese": "逃げ上手の若君: 幕間（1333年-1334年）「歴史」",
+            "title_synonyms": [
+                "Nige Jouzu no Wakagimi Episode 9.5",
+                "Nige Jouzu no Wakagimi Recap",
+                "The Elusive Samurai Episode 9.5",
+                "The Elusive Samurai Recap",
+                "Nigewaka Recap"
+            ],
+            "type": "TV Special",
+            "source": "Manga",
+            "episodes": 1,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2024-09-07T00:00:00+00:00",
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": 7,
+                        "month": 9,
+                        "year": 2024
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Sep 7, 2024"
+            },
+            "duration": "23 min",
+            "rating": "R - 17+ (violence & profanity)",
+            "score": 6.16,
+            "scored_by": 653,
+            "rank": 8911,
+            "popularity": 13023,
+            "members": 1294,
+            "favorites": 7,
+            "synopsis": "Recap of the first nine episodes of Nige Jouzu no Wakagimi.",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": null
+            },
+            "producers": [],
+            "licensors": [],
+            "studios": [
+                {
+                    "mal_id": 1835,
+                    "type": "anime",
+                    "name": "CloverWorks",
+                    "url": "https://myanimelist.net/anime/producer/1835/CloverWorks"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 13,
+                    "type": "anime",
+                    "name": "Historical",
+                    "url": "https://myanimelist.net/anime/genre/13/Historical"
+                },
+                {
+                    "mal_id": 21,
+                    "type": "anime",
+                    "name": "Samurai",
+                    "url": "https://myanimelist.net/anime/genre/21/Samurai"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 60059,
+            "url": "https://myanimelist.net/anime/60059/Nige_Jouzu_no_Wakagimi_2nd_Season",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1437/145947.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1437/145947.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Nige Jouzu no Wakagimi 2nd Season"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Nigewaka"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "逃げ上手の若君 第二期"
+                },
+                {
+                    "type": "English",
+                    "title": "The Elusive Samurai Season 2"
+                }
+            ],
+            "title": "Nige Jouzu no Wakagimi 2nd Season",
+            "title_english": "The Elusive Samurai Season 2",
+            "title_japanese": "逃げ上手の若君 第二期",
+            "title_synonyms": [
+                "Nigewaka"
+            ],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": null,
+            "status": "Not yet aired",
+            "airing": false,
+            "aired": {
+                "from": null,
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Not available"
+            },
+            "duration": "Unknown",
+            "rating": "R - 17+ (violence & profanity)",
+            "score": null,
+            "scored_by": null,
+            "rank": null,
+            "popularity": 6107,
+            "members": 12201,
+            "favorites": 9,
+            "synopsis": "Seasond season of Nige Jouzu no Wakagimi.",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": "Unknown"
+            },
+            "producers": [],
+            "licensors": [],
+            "studios": [],
+            "genres": [
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 13,
+                    "type": "anime",
+                    "name": "Historical",
+                    "url": "https://myanimelist.net/anime/genre/13/Historical"
+                },
+                {
+                    "mal_id": 21,
+                    "type": "anime",
+                    "name": "Samurai",
+                    "url": "https://myanimelist.net/anime/genre/21/Samurai"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 60059,
+            "url": "https://myanimelist.net/anime/60059/Nige_Jouzu_no_Wakagimi_2nd_Season",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1437/145947.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1437/145947.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Nige Jouzu no Wakagimi 2nd Season"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Nigewaka"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "逃げ上手の若君 第二期"
+                },
+                {
+                    "type": "English",
+                    "title": "The Elusive Samurai Season 2"
+                }
+            ],
+            "title": "Nige Jouzu no Wakagimi 2nd Season",
+            "title_english": "The Elusive Samurai Season 2",
+            "title_japanese": "逃げ上手の若君 第二期",
+            "title_synonyms": [
+                "Nigewaka"
+            ],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": null,
+            "status": "Not yet aired",
+            "airing": false,
+            "aired": {
+                "from": null,
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Not available"
+            },
+            "duration": "Unknown",
+            "rating": "R - 17+ (violence & profanity)",
+            "score": null,
+            "scored_by": null,
+            "rank": null,
+            "popularity": 6107,
+            "members": 12201,
+            "favorites": 9,
+            "synopsis": "Seasond season of Nige Jouzu no Wakagimi.",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": "Unknown"
+            },
+            "producers": [],
+            "licensors": [],
+            "studios": [],
+            "genres": [
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 13,
+                    "type": "anime",
+                    "name": "Historical",
+                    "url": "https://myanimelist.net/anime/genre/13/Historical"
+                },
+                {
+                    "mal_id": 21,
+                    "type": "anime",
+                    "name": "Samurai",
+                    "url": "https://myanimelist.net/anime/genre/21/Samurai"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 60059,
+            "url": "https://myanimelist.net/anime/60059/Nige_Jouzu_no_Wakagimi_2nd_Season",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1437/145947.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1437/145947.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1437/145947l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Nige Jouzu no Wakagimi 2nd Season"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Nigewaka"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "逃げ上手の若君 第二期"
+                },
+                {
+                    "type": "English",
+                    "title": "The Elusive Samurai Season 2"
+                }
+            ],
+            "title": "Nige Jouzu no Wakagimi 2nd Season",
+            "title_english": "The Elusive Samurai Season 2",
+            "title_japanese": "逃げ上手の若君 第二期",
+            "title_synonyms": [
+                "Nigewaka"
+            ],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": null,
+            "status": "Not yet aired",
+            "airing": false,
+            "aired": {
+                "from": null,
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Not available"
+            },
+            "duration": "Unknown",
+            "rating": "R - 17+ (violence & profanity)",
+            "score": null,
+            "scored_by": null,
+            "rank": null,
+            "popularity": 6107,
+            "members": 12201,
+            "favorites": 9,
+            "synopsis": "Seasond season of Nige Jouzu no Wakagimi.",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": "Unknown"
+            },
+            "producers": [],
+            "licensors": [],
+            "studios": [],
+            "genres": [
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 13,
+                    "type": "anime",
+                    "name": "Historical",
+                    "url": "https://myanimelist.net/anime/genre/13/Historical"
+                },
+                {
+                    "mal_id": 21,
+                    "type": "anime",
+                    "name": "Samurai",
+                    "url": "https://myanimelist.net/anime/genre/21/Samurai"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 54724,
+            "url": "https://myanimelist.net/anime/54724/Nige_Jouzu_no_Wakagimi",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1386/140401.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1386/140401t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1386/140401l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1386/140401.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1386/140401t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1386/140401l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": "JjOLjAB0bcI",
+                "url": "https://www.youtube.com/watch?v=JjOLjAB0bcI",
+                "embed_url": "https://www.youtube.com/embed/JjOLjAB0bcI?enablejsapi=1&wmode=opaque&autoplay=1",
+                "images": {
+                    "image_url": "https://img.youtube.com/vi/JjOLjAB0bcI/default.jpg",
+                    "small_image_url": "https://img.youtube.com/vi/JjOLjAB0bcI/sddefault.jpg",
+                    "medium_image_url": "https://img.youtube.com/vi/JjOLjAB0bcI/mqdefault.jpg",
+                    "large_image_url": "https://img.youtube.com/vi/JjOLjAB0bcI/hqdefault.jpg",
+                    "maximum_image_url": "https://img.youtube.com/vi/JjOLjAB0bcI/maxresdefault.jpg"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Nige Jouzu no Wakagimi"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Nigewaka"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "逃げ上手の若君"
+                },
+                {
+                    "type": "English",
+                    "title": "The Elusive Samurai"
+                }
+            ],
+            "title": "Nige Jouzu no Wakagimi",
+            "title_english": "The Elusive Samurai",
+            "title_japanese": "逃げ上手の若君",
+            "title_synonyms": [
+                "Nigewaka"
+            ],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": 12,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2024-07-06T00:00:00+00:00",
+                "to": "2024-09-28T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 6,
+                        "month": 7,
+                        "year": 2024
+                    },
+                    "to": {
+                        "day": 28,
+                        "month": 9,
+                        "year": 2024
+                    }
+                },
+                "string": "Jul 6, 2024 to Sep 28, 2024"
+            },
+            "duration": "23 min per ep",
+            "rating": "R - 17+ (violence & profanity)",
+            "score": 7.86,
+            "scored_by": 45364,
+            "rank": 891,
+            "popularity": 1693,
+            "members": 139972,
+            "favorites": 560,
+            "synopsis": "Tokiyuki Houjou, a carefree eight-year-old noble, is content with the serene life in Kamakura and shows little regard for the serious responsibilities that come with his eventually succeeding his father as the next shogun. Instead of dedicating himself to rigorous training in swordsmanship or archery, Tokiyuki excels in the art of evasion, skillfully dodging his advisors and discovering perfect hiding spots. However, his peaceful existence is shattered when a sudden coup brutally wipes out his clan.\n\nOverwhelmed with guilt for being the sole survivor, Tokiyuki contemplates joining his family in death. However, his fate takes an abrupt turn when the enigmatic priest Yorishige Suwa suddenly shoves him onto a battlefield. Yorishige, who prophesies that Tokiyuki will one day become a great hero, leaves the boy with no choice but to navigate his way free of enemy soldiers. As Tokiyuki struggles to survive against these foes, he finds a new thrill in raising the stakes of his usual hide-and-seek games.\n\nWith a renewed sense of purpose and the promise of powerful allies from Yorishige, Tokiyuki vows to avenge his family—not through his capability to fight, but through his extraordinary talent for running away.\n\n[Written by MAL Rewrite]",
+            "background": "",
+            "season": "summer",
+            "year": 2024,
+            "broadcast": {
+                "day": "Saturdays",
+                "time": "23:30",
+                "timezone": "Asia/Tokyo",
+                "string": "Saturdays at 23:30 (JST)"
+            },
+            "producers": [
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Aniplex",
+                    "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+                },
+                {
+                    "mal_id": 1211,
+                    "type": "anime",
+                    "name": "Tokyo MX",
+                    "url": "https://myanimelist.net/anime/producer/1211/Tokyo_MX"
+                },
+                {
+                    "mal_id": 1365,
+                    "type": "anime",
+                    "name": "Shueisha",
+                    "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+                },
+                {
+                    "mal_id": 1416,
+                    "type": "anime",
+                    "name": "BS11",
+                    "url": "https://myanimelist.net/anime/producer/1416/BS11"
+                },
+                {
+                    "mal_id": 2074,
+                    "type": "anime",
+                    "name": "Bit grooove promotion",
+                    "url": "https://myanimelist.net/anime/producer/2074/Bit_grooove_promotion"
+                }
+            ],
+            "licensors": [],
+            "studios": [
+                {
+                    "mal_id": 1835,
+                    "type": "anime",
+                    "name": "CloverWorks",
+                    "url": "https://myanimelist.net/anime/producer/1835/CloverWorks"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 13,
+                    "type": "anime",
+                    "name": "Historical",
+                    "url": "https://myanimelist.net/anime/genre/13/Historical"
+                },
+                {
+                    "mal_id": 21,
+                    "type": "anime",
+                    "name": "Samurai",
+                    "url": "https://myanimelist.net/anime/genre/21/Samurai"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 32878,
+            "url": "https://myanimelist.net/anime/32878/ēlDLIVE",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/8/82348.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/8/82348t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/8/82348l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/8/82348.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/8/82348t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/8/82348l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": "Yv8IO7efUvY",
+                "url": "https://www.youtube.com/watch?v=Yv8IO7efUvY",
+                "embed_url": "https://www.youtube.com/embed/Yv8IO7efUvY?enablejsapi=1&wmode=opaque&autoplay=1",
+                "images": {
+                    "image_url": "https://img.youtube.com/vi/Yv8IO7efUvY/default.jpg",
+                    "small_image_url": "https://img.youtube.com/vi/Yv8IO7efUvY/sddefault.jpg",
+                    "medium_image_url": "https://img.youtube.com/vi/Yv8IO7efUvY/mqdefault.jpg",
+                    "large_image_url": "https://img.youtube.com/vi/Yv8IO7efUvY/hqdefault.jpg",
+                    "maximum_image_url": "https://img.youtube.com/vi/Yv8IO7efUvY/maxresdefault.jpg"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "ēlDLIVE"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "エルドライブ 【ēlDLIVE】"
+                },
+                {
+                    "type": "English",
+                    "title": "elDLIVE"
+                },
+                {
+                    "type": "German",
+                    "title": "elDLIVE"
+                },
+                {
+                    "type": "Spanish",
+                    "title": "elDLIVE"
+                },
+                {
+                    "type": "French",
+                    "title": "élDLIVE"
+                }
+            ],
+            "title": "ēlDLIVE",
+            "title_english": "elDLIVE",
+            "title_japanese": "エルドライブ 【ēlDLIVE】",
+            "title_synonyms": [],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": 12,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2017-01-08T00:00:00+00:00",
+                "to": "2017-03-26T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 8,
+                        "month": 1,
+                        "year": 2017
+                    },
+                    "to": {
+                        "day": 26,
+                        "month": 3,
+                        "year": 2017
+                    }
+                },
+                "string": "Jan 8, 2017 to Mar 26, 2017"
+            },
+            "duration": "24 min per ep",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": 6.09,
+            "scored_by": 18669,
+            "rank": 9290,
+            "popularity": 3260,
+            "members": 49429,
+            "favorites": 48,
+            "synopsis": "Chuuta Kokonose is an orphan who lives with his aunt. For as long as he can remember, he's had a voice in his head, but other than that he's a normal boy—right until the day when a strange-looking thing follows him home and teleports him to a place filled with more fantastic creatures. It's a space police station, and Rein Brickke, the Chief of Solar System Department, tells him that he's been chosen by the computer as a possible candidate to join the police force. Misuzu Sonokata, a girl from Chuuta's school with an angelic face and ill temper who turns out to be one of Rein Brickke's subordinates, doesn't think him suitable for such a job. Chuuta, who was shocked at first, decides to take the aptitude test after being urged by the voice in his head and to prove Misuzu wrong.",
+            "background": "",
+            "season": "winter",
+            "year": 2017,
+            "broadcast": {
+                "day": "Sundays",
+                "time": "22:00",
+                "timezone": "Asia/Tokyo",
+                "string": "Sundays at 22:00 (JST)"
+            },
+            "producers": [
+                {
+                    "mal_id": 76,
+                    "type": "anime",
+                    "name": "Yomiuri Telecasting",
+                    "url": "https://myanimelist.net/anime/producer/76/Yomiuri_Telecasting"
+                },
+                {
+                    "mal_id": 164,
+                    "type": "anime",
+                    "name": "d-rights",
+                    "url": "https://myanimelist.net/anime/producer/164/d-rights"
+                },
+                {
+                    "mal_id": 213,
+                    "type": "anime",
+                    "name": "Half H.P Studio",
+                    "url": "https://myanimelist.net/anime/producer/213/Half_HP_Studio"
+                },
+                {
+                    "mal_id": 1365,
+                    "type": "anime",
+                    "name": "Shueisha",
+                    "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+                },
+                {
+                    "mal_id": 1493,
+                    "type": "anime",
+                    "name": "Tokuma Japan Communications",
+                    "url": "https://myanimelist.net/anime/producer/1493/Tokuma_Japan_Communications"
+                },
+                {
+                    "mal_id": 1617,
+                    "type": "anime",
+                    "name": "Tencent Japan",
+                    "url": "https://myanimelist.net/anime/producer/1617/Tencent_Japan"
+                }
+            ],
+            "licensors": [
+                {
+                    "mal_id": 102,
+                    "type": "anime",
+                    "name": "Funimation",
+                    "url": "https://myanimelist.net/anime/producer/102/Funimation"
+                },
+                {
+                    "mal_id": 1468,
+                    "type": "anime",
+                    "name": "Crunchyroll",
+                    "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+                }
+            ],
+            "studios": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Pierrot",
+                    "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/anime/genre/1/Action"
+                },
+                {
+                    "mal_id": 24,
+                    "type": "anime",
+                    "name": "Sci-Fi",
+                    "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 29,
+                    "type": "anime",
+                    "name": "Space",
+                    "url": "https://myanimelist.net/anime/genre/29/Space"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 33740,
+            "url": "https://myanimelist.net/anime/33740/Katekyou_Hitman_Reborn_x_ēlDLIVE_Special",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1237/104850.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1237/104850t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1237/104850l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1237/104850.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1237/104850t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1237/104850l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Katekyou Hitman Reborn! x ēlDLIVE Special"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "家庭教師ヒットマンREBORN!×エルドライブ【ēlDLIVE】』SPコラボミニアニメ[24H]"
+                }
+            ],
+            "title": "Katekyou Hitman Reborn! x ēlDLIVE Special",
+            "title_english": null,
+            "title_japanese": "家庭教師ヒットマンREBORN!×エルドライブ【ēlDLIVE】』SPコラボミニアニメ[24H]",
+            "title_synonyms": [],
+            "type": "Special",
+            "source": "Manga",
+            "episodes": 1,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2016-07-28T00:00:00+00:00",
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": 28,
+                        "month": 7,
+                        "year": 2016
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Jul 28, 2016"
+            },
+            "duration": "2 min",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": 6.7,
+            "scored_by": 3377,
+            "rank": 5797,
+            "popularity": 6585,
+            "members": 10135,
+            "favorites": 17,
+            "synopsis": "Short anime special for Katekyou Hitman Reborn! and ēlDLIVE that exhibited at Akira Amano Illustration Exhibition between July 28 to August 9.",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": null
+            },
+            "producers": [],
+            "licensors": [],
+            "studios": [
+                {
+                    "mal_id": 8,
+                    "type": "anime",
+                    "name": "Artland",
+                    "url": "https://myanimelist.net/anime/producer/8/Artland"
+                }
+            ],
+            "genres": [],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 31,
+                    "type": "anime",
+                    "name": "Super Power",
+                    "url": "https://myanimelist.net/anime/genre/31/Super_Power"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 17785,
+            "url": "https://myanimelist.net/anime/17785/Jungle_wa_Itsumo_Hare_nochi_Guu__Eizou_Tokuten_-_Maboroshi_no_Pilot_Film",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/10/47343.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/10/47343t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/10/47343l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/10/47343.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/10/47343t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/10/47343l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Jungle wa Itsumo Hare nochi Guu: Eizou Tokuten - Maboroshi no Pilot Film"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Jungle wa Itsumo Haré nochi Guu: Eizou Tokuten - Maboroshi no Pilot Film"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Jungle wa Itsumo Hare nochi Guu Pilot"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "映像特典 ~幻のパイロットフィルム~"
+                },
+                {
+                    "type": "English",
+                    "title": "Haré+Guu: Movie Special - The Illusive Pilot Film"
+                }
+            ],
+            "title": "Jungle wa Itsumo Hare nochi Guu: Eizou Tokuten - Maboroshi no Pilot Film",
+            "title_english": "Haré+Guu: Movie Special - The Illusive Pilot Film",
+            "title_japanese": "映像特典 ~幻のパイロットフィルム~",
+            "title_synonyms": [
+                "Jungle wa Itsumo Haré nochi Guu: Eizou Tokuten - Maboroshi no Pilot Film",
+                "Jungle wa Itsumo Hare nochi Guu Pilot"
+            ],
+            "type": "Special",
+            "source": "Manga",
+            "episodes": 1,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2002-12-21T00:00:00+00:00",
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": 21,
+                        "month": 12,
+                        "year": 2002
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Dec 21, 2002"
+            },
+            "duration": "4 min",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": 6.25,
+            "scored_by": 371,
+            "rank": 8421,
+            "popularity": 13546,
+            "members": 1119,
+            "favorites": 0,
+            "synopsis": "4-minute promo/pilot released with the Deluxe OVA, with a few events from the TV series in a different graphic style.",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": null
+            },
+            "producers": [
+                {
+                    "mal_id": 23,
+                    "type": "anime",
+                    "name": "Bandai Visual",
+                    "url": "https://myanimelist.net/anime/producer/23/Bandai_Visual"
+                }
+            ],
+            "licensors": [
+                {
+                    "mal_id": 102,
+                    "type": "anime",
+                    "name": "Funimation",
+                    "url": "https://myanimelist.net/anime/producer/102/Funimation"
+                }
+            ],
+            "studios": [
+                {
+                    "mal_id": 247,
+                    "type": "anime",
+                    "name": "Shin-Ei Animation",
+                    "url": "https://myanimelist.net/anime/producer/247/Shin-Ei_Animation"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [],
+            "demographics": []
+        },
+        {
+            "mal_id": 12591,
+            "url": "https://myanimelist.net/anime/12591/Ojamajo_Doremi_OVA",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1327/117362.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1327/117362t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1327/117362l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1327/117362.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1327/117362t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1327/117362l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Ojamajo Doremi OVA"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Ojamajo Doremi: VHS Exclusive"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Ojamajo Doremi Traffic Safety"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Ojamajo Doremi Bicycle Sagety Classroom"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Ojamajo Doremi Let's!! Cooking"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Ojamajo Doremi no Koutsuu Anzen"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Ojamajo Doremi no Jidensha Anzen Kyoushitsu"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "おジャ魔女どれみの交通安全, おジャ魔女どれみの自転車安全教室"
+                }
+            ],
+            "title": "Ojamajo Doremi OVA",
+            "title_english": null,
+            "title_japanese": "おジャ魔女どれみの交通安全, おジャ魔女どれみの自転車安全教室",
+            "title_synonyms": [
+                "Ojamajo Doremi: VHS Exclusive",
+                "Ojamajo Doremi Traffic Safety",
+                "Ojamajo Doremi Bicycle Sagety Classroom",
+                "Ojamajo Doremi Let's!! Cooking",
+                "Ojamajo Doremi no Koutsuu Anzen",
+                "Ojamajo Doremi no Jidensha Anzen Kyoushitsu"
+            ],
+            "type": "OVA",
+            "source": "Unknown",
+            "episodes": 3,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2001-01-01T00:00:00+00:00",
+                "to": "2002-01-01T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 1,
+                        "month": 1,
+                        "year": 2001
+                    },
+                    "to": {
+                        "day": 1,
+                        "month": 1,
+                        "year": 2002
+                    }
+                },
+                "string": "2001 to 2002"
+            },
+            "duration": "13 min per ep",
+            "rating": "G - All Ages",
+            "score": 6.8,
+            "scored_by": 652,
+            "rank": 5285,
+            "popularity": 11136,
+            "members": 2355,
+            "favorites": 4,
+            "synopsis": "Traffic Safety: Onpu teaches traffic safety.\nBicycle Safety Classroom: Momoko teaches bicycle safety.\nLet's!! Cooking: Learn how to make special treats!\n\n(Source: Royal Patraine)",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": null
+            },
+            "producers": [],
+            "licensors": [],
+            "studios": [
+                {
+                    "mal_id": 18,
+                    "type": "anime",
+                    "name": "Toei Animation",
+                    "url": "https://myanimelist.net/anime/producer/18/Toei_Animation"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 56,
+                    "type": "anime",
+                    "name": "Educational",
+                    "url": "https://myanimelist.net/anime/genre/56/Educational"
+                },
+                {
+                    "mal_id": 66,
+                    "type": "anime",
+                    "name": "Mahou Shoujo",
+                    "url": "https://myanimelist.net/anime/genre/66/Mahou_Shoujo"
+                }
+            ],
+            "demographics": []
+        }
+    ]
+}
