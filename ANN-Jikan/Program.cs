@@ -1,6 +1,6 @@
 using Spectre.Console;
 
-namespace ann_jikan
+namespace ANN_Jikan
 {
     internal class Program
     {
@@ -16,7 +16,7 @@ namespace ann_jikan
             // Console.WriteLine("\x1B[1F\x1B[J");
             var panel = new Panel(
                 Align.Center(
-                    new Markup("[white bold]ANN - Jikan[/]\n[white dim]The Latest of Anime News[/]")
+                    new Markup("[white bold]ANN - Jikan Newsfeed[/]\n[white dim]The Latest of Anime News[/]")
                 )
             )
                 .HeavyBorder()
