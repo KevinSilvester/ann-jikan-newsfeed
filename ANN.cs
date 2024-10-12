@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,6 @@ namespace ann_jikan
 {
     public class ANN
     {
-        private static readonly RestClient ANN_jClient = new RestClient("https://cdn.animenewsnetwork.com/encyclopedia/api.xml");
+        private static readonly RestClient ApiClient = new RestClient("https://cdn.animenewsnetwork.com/encyclopedia/api.xml");
     }
 }
