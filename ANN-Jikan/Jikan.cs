@@ -1,7 +1,7 @@
 using System.Text.Json;
 using RestSharp;
 
-namespace ANN_Jikan
+namespace ANN.Jikan
 {
     public class Jikan
     {

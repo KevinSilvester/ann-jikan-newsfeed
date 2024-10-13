@@ -1,6 +1,6 @@
 using Spectre.Console;
 
-namespace ANN_Jikan
+namespace ANN.Jikan
 {
     internal class Program
     {

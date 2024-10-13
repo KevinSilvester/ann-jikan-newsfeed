@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using RestSharp;
 
-namespace ANN_Jikan
+namespace ANN.Jikan
 {
     public class ANN
     {
