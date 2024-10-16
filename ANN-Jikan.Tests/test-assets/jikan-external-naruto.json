@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "name": "Official Site",
+            "url": "http://www.tv-tokyo.co.jp/anime/naruto2002/"
+        },
+        {
+            "name": "AniDB",
+            "url": "https://anidb.net/perl-bin/animedb.pl?show=anime&aid=239"
+        },
+        {
+            "name": "ANN",
+            "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1825"
+        },
+        {
+            "name": "Wikipedia",
+            "url": "http://en.wikipedia.org/wiki/Naruto"
+        },
+        {
+            "name": "Bangumi",
+            "url": "https://bangumi.tv/subject/3425"
+        }
+    ]
+}

@@ -1,0 +1,944 @@
+{
+    "pagination": {
+        "last_visible_page": 1,
+        "has_next_page": false,
+        "current_page": 1,
+        "items": {
+            "count": 6,
+            "total": 6,
+            "per_page": 25
+        }
+    },
+    "data": [
+        {
+            "mal_id": 20,
+            "url": "https://myanimelist.net/anime/20/Naruto",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1141/142503.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1141/142503t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1141/142503l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1141/142503.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1141/142503t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1141/142503l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Naruto"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "NARUTO"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "ナルト"
+                },
+                {
+                    "type": "English",
+                    "title": "Naruto"
+                }
+            ],
+            "title": "Naruto",
+            "title_english": "Naruto",
+            "title_japanese": "ナルト",
+            "title_synonyms": [
+                "NARUTO"
+            ],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": 220,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2002-10-03T00:00:00+00:00",
+                "to": "2007-02-08T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 3,
+                        "month": 10,
+                        "year": 2002
+                    },
+                    "to": {
+                        "day": 8,
+                        "month": 2,
+                        "year": 2007
+                    }
+                },
+                "string": "Oct 3, 2002 to Feb 8, 2007"
+            },
+            "duration": "23 min per ep",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": 8,
+            "scored_by": 2013075,
+            "rank": 659,
+            "popularity": 9,
+            "members": 2918802,
+            "favorites": 81052,
+            "synopsis": "Moments before Naruto Uzumaki's birth, a huge demon known as the Nine-Tailed Fox attacked Konohagakure, the Hidden Leaf Village, and wreaked havoc. In order to put an end to the demon's rampage, the leader of the village, the Fourth Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto.\n\nIn the present, Naruto is a hyperactive and knuckle-headed ninja growing up within Konohagakure. Shunned because of the demon inside him, Naruto struggles to find his place in the village. His one burning desire to become the Hokage and be acknowledged by the villagers who despite him. However, while his goal leads him to unbreakable bonds with lifelong friends, it also lands him in the crosshairs of many deadly foes.\n\n[Written by MAL Rewrite]",
+            "background": "Naruto adapts the first 27 volumes of the original manga. It received numerous awards during its airing, including the \"Best Full-Length Animation Program Award\" in the Third UStv Awards and the 38th \"Best Animated Show\" in IGN's Top 100 Animated Series.",
+            "season": "fall",
+            "year": 2002,
+            "broadcast": {
+                "day": "Thursdays",
+                "time": "19:30",
+                "timezone": "Asia/Tokyo",
+                "string": "Thursdays at 19:30 (JST)"
+            },
+            "producers": [
+                {
+                    "mal_id": 16,
+                    "type": "anime",
+                    "name": "TV Tokyo",
+                    "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+                },
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Aniplex",
+                    "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+                },
+                {
+                    "mal_id": 1365,
+                    "type": "anime",
+                    "name": "Shueisha",
+                    "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+                }
+            ],
+            "licensors": [
+                {
+                    "mal_id": 119,
+                    "type": "anime",
+                    "name": "VIZ Media",
+                    "url": "https://myanimelist.net/anime/producer/119/VIZ_Media"
+                }
+            ],
+            "studios": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Pierrot",
+                    "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/anime/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "anime",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Martial Arts",
+                    "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 1735,
+            "url": "https://myanimelist.net/anime/1735/Naruto__Shippuuden",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1565/111305t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1565/111305l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1565/111305.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1565/111305t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1565/111305l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": "1dy2zPPrKD0",
+                "url": "https://www.youtube.com/watch?v=1dy2zPPrKD0",
+                "embed_url": "https://www.youtube.com/embed/1dy2zPPrKD0?enablejsapi=1&wmode=opaque&autoplay=1",
+                "images": {
+                    "image_url": "https://img.youtube.com/vi/1dy2zPPrKD0/default.jpg",
+                    "small_image_url": "https://img.youtube.com/vi/1dy2zPPrKD0/sddefault.jpg",
+                    "medium_image_url": "https://img.youtube.com/vi/1dy2zPPrKD0/mqdefault.jpg",
+                    "large_image_url": "https://img.youtube.com/vi/1dy2zPPrKD0/hqdefault.jpg",
+                    "maximum_image_url": "https://img.youtube.com/vi/1dy2zPPrKD0/maxresdefault.jpg"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Naruto: Shippuuden"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Naruto Hurricane Chronicles"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "-ナルト- 疾風伝"
+                },
+                {
+                    "type": "English",
+                    "title": "Naruto Shippuden"
+                },
+                {
+                    "type": "German",
+                    "title": "Naruto Shippuden"
+                },
+                {
+                    "type": "Spanish",
+                    "title": "Naruto Shippuden"
+                },
+                {
+                    "type": "French",
+                    "title": "Naruto Shippuden"
+                }
+            ],
+            "title": "Naruto: Shippuuden",
+            "title_english": "Naruto Shippuden",
+            "title_japanese": "-ナルト- 疾風伝",
+            "title_synonyms": [
+                "Naruto Hurricane Chronicles"
+            ],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": 500,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2007-02-15T00:00:00+00:00",
+                "to": "2017-03-23T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 15,
+                        "month": 2,
+                        "year": 2007
+                    },
+                    "to": {
+                        "day": 23,
+                        "month": 3,
+                        "year": 2017
+                    }
+                },
+                "string": "Feb 15, 2007 to Mar 23, 2017"
+            },
+            "duration": "23 min per ep",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": 8.27,
+            "scored_by": 1697772,
+            "rank": 304,
+            "popularity": 16,
+            "members": 2550795,
+            "favorites": 113927,
+            "synopsis": "It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing in on their grand plan which may threaten the safety of the entire shinobi world.\n \nAlthough Naruto is older and sinister events loom on the horizon, he has changed little in personality—still rambunctious and childish—though he is now far more confident and possesses an even greater determination to protect his friends and home. Come whatever may, Naruto will carry on with the fight for what is important to him, even at the expense of his own body, in the continuation of the saga about the boy who wishes to become Hokage.\n\n[Written by MAL Rewrite]",
+            "background": "",
+            "season": "winter",
+            "year": 2007,
+            "broadcast": {
+                "day": "Thursdays",
+                "time": "19:30",
+                "timezone": "Asia/Tokyo",
+                "string": "Thursdays at 19:30 (JST)"
+            },
+            "producers": [
+                {
+                    "mal_id": 16,
+                    "type": "anime",
+                    "name": "TV Tokyo",
+                    "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+                },
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Aniplex",
+                    "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+                },
+                {
+                    "mal_id": 50,
+                    "type": "anime",
+                    "name": "KSS",
+                    "url": "https://myanimelist.net/anime/producer/50/KSS"
+                },
+                {
+                    "mal_id": 211,
+                    "type": "anime",
+                    "name": "Rakuonsha",
+                    "url": "https://myanimelist.net/anime/producer/211/Rakuonsha"
+                },
+                {
+                    "mal_id": 717,
+                    "type": "anime",
+                    "name": "TV Tokyo Music",
+                    "url": "https://myanimelist.net/anime/producer/717/TV_Tokyo_Music"
+                },
+                {
+                    "mal_id": 1365,
+                    "type": "anime",
+                    "name": "Shueisha",
+                    "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+                }
+            ],
+            "licensors": [
+                {
+                    "mal_id": 119,
+                    "type": "anime",
+                    "name": "VIZ Media",
+                    "url": "https://myanimelist.net/anime/producer/119/VIZ_Media"
+                }
+            ],
+            "studios": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Pierrot",
+                    "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/anime/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "anime",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Martial Arts",
+                    "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 34566,
+            "url": "https://myanimelist.net/anime/34566/Boruto__Naruto_Next_Generations",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1091/99847.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1091/99847t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1091/99847l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1091/99847.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1091/99847t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1091/99847l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Boruto: Naruto Next Generations"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "BORUTO -NARUTO NEXT GENERATIONS-"
+                },
+                {
+                    "type": "English",
+                    "title": "Boruto: Naruto Next Generations"
+                }
+            ],
+            "title": "Boruto: Naruto Next Generations",
+            "title_english": "Boruto: Naruto Next Generations",
+            "title_japanese": "BORUTO -NARUTO NEXT GENERATIONS-",
+            "title_synonyms": [],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": 293,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2017-04-05T00:00:00+00:00",
+                "to": "2023-03-26T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 5,
+                        "month": 4,
+                        "year": 2017
+                    },
+                    "to": {
+                        "day": 26,
+                        "month": 3,
+                        "year": 2023
+                    }
+                },
+                "string": "Apr 5, 2017 to Mar 26, 2023"
+            },
+            "duration": "23 min per ep",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": 6.01,
+            "scored_by": 449719,
+            "rank": 9749,
+            "popularity": 205,
+            "members": 883744,
+            "favorites": 7315,
+            "synopsis": "Following the successful end of the Fourth Shinobi World War, Konohagakure has been enjoying a period of peace, prosperity, and extraordinary technological advancement. This is all due to the efforts of the Allied Shinobi Forces and the village's Seventh Hokage, Naruto Uzumaki. Now resembling a modern metropolis, Konohagakure has changed, particularly the life of a shinobi. Under the watchful eye of Naruto and his old comrades, a new generation of shinobi has stepped up to learn the ways of the ninja.\n\nBoruto Uzumaki is often the center of attention as the son of the Seventh Hokage. Despite having inherited Naruto's boisterous and stubborn demeanor, Boruto is considered a prodigy and is able to unleash his potential with the help of supportive friends and family. Unfortunately, this has only worsened his arrogance and his desire to surpass Naruto which, along with his father's busy lifestyle, has strained their relationship. However, a sinister force brewing within the village may threaten Boruto's carefree life.\n\nNew friends and familiar faces join Boruto as a new story begins.\n\n[Written by MAL Rewrite]",
+            "background": "",
+            "season": "spring",
+            "year": 2017,
+            "broadcast": {
+                "day": "Sundays",
+                "time": "17:30",
+                "timezone": "Asia/Tokyo",
+                "string": "Sundays at 17:30 (JST)"
+            },
+            "producers": [
+                {
+                    "mal_id": 16,
+                    "type": "anime",
+                    "name": "TV Tokyo",
+                    "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+                },
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Aniplex",
+                    "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+                },
+                {
+                    "mal_id": 211,
+                    "type": "anime",
+                    "name": "Rakuonsha",
+                    "url": "https://myanimelist.net/anime/producer/211/Rakuonsha"
+                },
+                {
+                    "mal_id": 1365,
+                    "type": "anime",
+                    "name": "Shueisha",
+                    "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+                }
+            ],
+            "licensors": [
+                {
+                    "mal_id": 119,
+                    "type": "anime",
+                    "name": "VIZ Media",
+                    "url": "https://myanimelist.net/anime/producer/119/VIZ_Media"
+                }
+            ],
+            "studios": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Pierrot",
+                    "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/anime/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "anime",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Martial Arts",
+                    "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 12979,
+            "url": "https://myanimelist.net/anime/12979/Naruto_SD__Rock_Lee_no_Seishun_Full-Power_Ninden",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/13/36475.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/13/36475t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/13/36475l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/13/36475.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/13/36475t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/13/36475l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": "vAuU88KX8EA",
+                "url": "https://www.youtube.com/watch?v=vAuU88KX8EA",
+                "embed_url": "https://www.youtube.com/embed/vAuU88KX8EA?enablejsapi=1&wmode=opaque&autoplay=1",
+                "images": {
+                    "image_url": "https://img.youtube.com/vi/vAuU88KX8EA/default.jpg",
+                    "small_image_url": "https://img.youtube.com/vi/vAuU88KX8EA/sddefault.jpg",
+                    "medium_image_url": "https://img.youtube.com/vi/vAuU88KX8EA/mqdefault.jpg",
+                    "large_image_url": "https://img.youtube.com/vi/vAuU88KX8EA/hqdefault.jpg",
+                    "maximum_image_url": "https://img.youtube.com/vi/vAuU88KX8EA/maxresdefault.jpg"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Naruto SD: Rock Lee no Seishun Full-Power Ninden"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "ナルトSD ロック・リーの青春フルパワー忍伝"
+                },
+                {
+                    "type": "English",
+                    "title": "Naruto Spin-Off: Rock Lee & His Ninja Pals"
+                },
+                {
+                    "type": "Spanish",
+                    "title": "Rock Lee no Seishun Full-Power Ninden"
+                },
+                {
+                    "type": "French",
+                    "title": "Naruto Spin-Off: Rock Lee & His Ninja Pals"
+                }
+            ],
+            "title": "Naruto SD: Rock Lee no Seishun Full-Power Ninden",
+            "title_english": "Naruto Spin-Off: Rock Lee & His Ninja Pals",
+            "title_japanese": "ナルトSD ロック・リーの青春フルパワー忍伝",
+            "title_synonyms": [],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": 51,
+            "status": "Finished Airing",
+            "airing": false,
+            "aired": {
+                "from": "2012-04-03T00:00:00+00:00",
+                "to": "2013-03-26T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 3,
+                        "month": 4,
+                        "year": 2012
+                    },
+                    "to": {
+                        "day": 26,
+                        "month": 3,
+                        "year": 2013
+                    }
+                },
+                "string": "Apr 3, 2012 to Mar 26, 2013"
+            },
+            "duration": "24 min per ep",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": 7.17,
+            "scored_by": 50533,
+            "rank": 3485,
+            "popularity": 2157,
+            "members": 101025,
+            "favorites": 303,
+            "synopsis": "The competitive shinobi world has proven to be challenging for Rock Lee, who lacks the typically required abilities. To compensate for this handicap, the young ninja tenaciously endures severe training to hone his hand-to-hand combat skills. Whenever necessary, he also resorts to creative fighting techniques. With the constant support of his teammates Neji Hyuuga and Tenten, Lee readily embraces daring adventures as opportunities to advance on his path toward excellence.\n\n[Written by MAL Rewrite]",
+            "background": "Naruto SD: Rock Lee no Seishun Full-Power Ninden is a Naruto: Shippuuden non-canon spin-off. Unlike the original series, it is the work of a different author and presents distinctive elements: another main character, a super-deformed art style, a narrator, and topics or statements that can be difficult to understand even for adults. The first DVD was released on July 18, 2012. Starting October 1, 2013, the anime was re-broadcasted as a selection of episodes from the initial series under the title Naruto SD: Rock Lee no Seishun Full-Power Ninden Mou Iccho. It is also considered that Rock Lee Ocharake Gaiden—a separate feature shown in five installments as a bonus of Naruto Shippuuden—is essentially Naruto SD: Rock Lee no Seishun Full Power Ninden's predecessor. As of March 2015, both dubbed and subtitled English versions have been made available for online streaming in the United States through Hulu and Neon Alley.",
+            "season": "spring",
+            "year": 2012,
+            "broadcast": {
+                "day": "Tuesdays",
+                "time": "18:00",
+                "timezone": "Asia/Tokyo",
+                "string": "Tuesdays at 18:00 (JST)"
+            },
+            "producers": [
+                {
+                    "mal_id": 16,
+                    "type": "anime",
+                    "name": "TV Tokyo",
+                    "url": "https://myanimelist.net/anime/producer/16/TV_Tokyo"
+                },
+                {
+                    "mal_id": 1365,
+                    "type": "anime",
+                    "name": "Shueisha",
+                    "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+                }
+            ],
+            "licensors": [
+                {
+                    "mal_id": 119,
+                    "type": "anime",
+                    "name": "VIZ Media",
+                    "url": "https://myanimelist.net/anime/producer/119/VIZ_Media"
+                }
+            ],
+            "studios": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Pierrot",
+                    "url": "https://myanimelist.net/anime/producer/1/Pierrot"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/anime/genre/1/Action"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "anime",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/anime/genre/4/Comedy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 20,
+                    "type": "anime",
+                    "name": "Parody",
+                    "url": "https://myanimelist.net/anime/genre/20/Parody"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 54687,
+            "url": "https://myanimelist.net/anime/54687/Boruto__Naruto_Next_Generations_Part_2",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1604/134068.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1604/134068t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1604/134068l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1604/134068.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1604/134068t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1604/134068l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Boruto: Naruto Next Generations Part 2"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "BORUTO -NARUTO NEXT GENERATIONS- (第二部)"
+                }
+            ],
+            "title": "Boruto: Naruto Next Generations Part 2",
+            "title_english": null,
+            "title_japanese": "BORUTO -NARUTO NEXT GENERATIONS- (第二部)",
+            "title_synonyms": [],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": null,
+            "status": "Not yet aired",
+            "airing": false,
+            "aired": {
+                "from": null,
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Not available"
+            },
+            "duration": "Unknown",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": null,
+            "scored_by": null,
+            "rank": null,
+            "popularity": 4379,
+            "members": 27672,
+            "favorites": 261,
+            "synopsis": null,
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": "Unknown"
+            },
+            "producers": [],
+            "licensors": [],
+            "studios": [],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/anime/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "anime",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Martial Arts",
+                    "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 54688,
+            "url": "https://myanimelist.net/anime/54688/Naruto_Shinsaku_Anime",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1378/137310.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1378/137310t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1378/137310l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/anime/1378/137310.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/anime/1378/137310t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/anime/1378/137310l.webp"
+                }
+            },
+            "trailer": {
+                "youtube_id": null,
+                "url": null,
+                "embed_url": null,
+                "images": {
+                    "image_url": null,
+                    "small_image_url": null,
+                    "medium_image_url": null,
+                    "large_image_url": null,
+                    "maximum_image_url": null
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Naruto (Shinsaku Anime)"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "ナルト新作アニメ"
+                }
+            ],
+            "title": "Naruto (Shinsaku Anime)",
+            "title_english": null,
+            "title_japanese": "ナルト新作アニメ",
+            "title_synonyms": [],
+            "type": "TV",
+            "source": "Manga",
+            "episodes": 4,
+            "status": "Not yet aired",
+            "airing": false,
+            "aired": {
+                "from": null,
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Not available"
+            },
+            "duration": "Unknown",
+            "rating": "PG-13 - Teens 13 or older",
+            "score": null,
+            "scored_by": null,
+            "rank": null,
+            "popularity": 3989,
+            "members": 33734,
+            "favorites": 227,
+            "synopsis": "A new anime project in celebration of Naruto's 20th anniversary.",
+            "background": "",
+            "season": null,
+            "year": null,
+            "broadcast": {
+                "day": null,
+                "time": null,
+                "timezone": null,
+                "string": "Unknown"
+            },
+            "producers": [],
+            "licensors": [],
+            "studios": [],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "anime",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/anime/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "anime",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/anime/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "anime",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 17,
+                    "type": "anime",
+                    "name": "Martial Arts",
+                    "url": "https://myanimelist.net/anime/genre/17/Martial_Arts"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "anime",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/anime/genre/27/Shounen"
+                }
+            ]
+        }
+    ]
+}
