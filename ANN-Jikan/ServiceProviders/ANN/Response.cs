@@ -1,10 +1,15 @@
 using System.Xml.Linq;
 using System.Xml.Serialization;
+using HtmlAgilityPack;
 
 namespace ANN_Jikan.ServiceProviders.ANN
 {
+    #region Aliases
     using TNewsResponse = List<NewsResponseData>;
+    #endregion
 
+
+    #region NewsResponse
     public static class ANNNewsRes
     {
         private static readonly IResponseParser<TNewsResponse> _parser = new NewsResponseParser();
@@ -44,4 +49,32 @@ namespace ANN_Jikan.ServiceProviders.ANN
             return newsArticles;
         }
     }
+    #endregion
+
+
+    #region NewsArticles
+    public static class ANNNewsArticlesRes
+    {
+        private static readonly IResponseParser<string> _parser = new NewsArticlesParser();
+
+        public static string Parse(string response) => _parser.Parse(response);
+    }
+
+    class NewsArticlesParser : IResponseParser<string>
+    {
+        private HtmlDocument _htmlDoc;
+
+        public NewsArticlesParser()
+        {
+            _htmlDoc = new HtmlDocument();
+        }
+
+        public string Parse(string response)
+        {
+            _htmlDoc.LoadHtml(response);
+            var articleElem = _htmlDoc.DocumentNode.QuerySelector(".KonaBody");
+            return articleElem.InnerText.Trim();
+        }
+    }
+    #endregion
 }
