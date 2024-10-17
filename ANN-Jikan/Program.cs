@@ -1,6 +1,6 @@
 using Spectre.Console;
 
-namespace ANN.Jikan
+namespace ANN_Jikan
 {
     internal class Program
     {
@@ -34,7 +34,7 @@ namespace ANN.Jikan
 
                 var action = AnsiConsole.Prompt(
                     new SelectionPrompt<(SelectActions, string)>()
-                        .Title("[deepskyblue1 bold]?[/] Choose you action:")
+                        .Title("[deepskyblue1 bold]?[/] Choose your action:")
                         .HighlightStyle("skyblue1")
                         .AddChoices(
                             new[]
@@ -44,7 +44,7 @@ namespace ANN.Jikan
                                 (SelectActions.Exit, "Exit application"),
                             }
                         )
-                        .UseConverter(action => action.Item2)
+                        .UseConverter(action => $"{action.Item2}\n hello")
                 );
 
                 AnsiConsole.MarkupLine(
