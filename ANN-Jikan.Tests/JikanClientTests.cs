@@ -20,15 +20,15 @@ public class JikanClientTests
     {
         var response = await jikanApiClient.Get("", new (string, string?)[] { ("q", "naruto") });
         Assert.NotNull(response);
-        var responseJson = JikanSearchRes.Parse(response);
+        var responseParsed = JikanSearchRes.Parse(response);
 
         var expected = File.ReadAllText("../../../test-assets/jikan-search-naruto.json");
-        var expectedJson = JikanSearchRes.Parse(expected);
+        var expectedParrsed = JikanSearchRes.Parse(expected);
 
-        Assert.NotNull(responseJson);
-        Assert.NotNull(expectedJson);
-        Assert.Equal(expectedJson.Count, responseJson.Count);
-        Assert.Equal(expectedJson[0].mal_id, responseJson[0].mal_id);
+        Assert.NotNull(responseParsed);
+        Assert.NotNull(expectedParrsed);
+        Assert.Equal(expectedParrsed.Count, responseParsed.Count);
+        Assert.Equal(expectedParrsed[0].mal_id, responseParsed[0].mal_id);
     }
 
     [Fact]
@@ -36,14 +36,14 @@ public class JikanClientTests
     {
         var response = await jikanApiClient.Get("20/external", null);
         Assert.NotNull(response);
-        var responseJson = JikanExtenalLinksRes.Parse(response);
+        var responseParsed = JikanExtenalLinksRes.Parse(response);
 
         var expected = File.ReadAllText("../../../test-assets/jikan-external-naruto.json");
-        var expectedJson = JikanExtenalLinksRes.Parse(expected);
+        var expectedParsed = JikanExtenalLinksRes.Parse(expected);
 
-        Assert.NotNull(responseJson);
-        Assert.NotNull(expectedJson);
-        Assert.Equal(expectedJson.Count, responseJson.Count);
-        Assert.Equal(expectedJson[0].url, responseJson[0].url);
+        Assert.NotNull(responseParsed);
+        Assert.NotNull(expectedParsed);
+        Assert.Equal(expectedParsed.Count, responseParsed.Count);
+        Assert.Equal(expectedParsed[0].url, responseParsed[0].url);
     }
 }

@@ -17,24 +17,16 @@ public class ANNClientTests
     [Fact]
     public async Task TestJikanSearch()
     {
-        var response = await annApiClient.Get("", new (string, string?)[] { ("id", "1825") });
+        var response = await annApiClient.Get("", new (string, string?)[] { ("anime", "1825") });
         Assert.NotNull(response);
-        XmlSerializer serializer = new(typeof(ANNResponse));
-        var responseXml = serializer.Deserialize(new StringReader(response)) as ANNResponse;
+        var responseParsed = ANNNewsRes.Parse(response);
 
         var expected = File.ReadAllText("../../../test-assets/ann-naruto.xml");
-        var expectedXml = serializer.Deserialize(new StringReader(expected)) as ANNResponse;
+        var expectedParsed = ANNNewsRes.Parse(expected);
 
-        var responseJson = JsonSerializer.Serialize(
-            responseXml,
-            new JsonSerializerOptions { WriteIndented = true }
-        );
-
-        Assert.NotNull(responseXml);
-        Assert.NotNull(expectedXml);
-        Console.WriteLine(responseJson);
-        Assert.Equal(expectedXml.news.Length, responseXml.news.Length);
-        // Assert.Equal(expectedXml.news.Length, responseXml.news.Length);
-        // Assert.Equal(expectedXml.news[0].link, responseXml.news[0].link);
+        Assert.NotNull(responseParsed);
+        Assert.NotNull(expectedParsed);
+        Assert.Equal(expectedParsed.Count, responseParsed.Count);
+        Assert.Equal(expectedParsed[0].url, responseParsed[0].url);
     }
 }
