@@ -31,14 +31,21 @@ namespace ANN_Jikan.ServiceProviders.Jikan
 
         public async Task<List<SearchResponseData>> GetPopularAiring()
         {
-            var response = await _apiClient.Get(
+            var response1 = await _apiClient.Get(
                 "",
-                new (string, string?)[] { ("status", "airing") }
+                new (string, string?)[] { ("status", "airing"), ("page", "1") }
             );
-            if (response == null)
+            var response2 = await _apiClient.Get(
+                "",
+                new (string, string?)[] { ("status", "airing"), ("page", "2") }
+            );
+
+            if (response1 == null || response2 == null)
                 throw new Exception("ServiceError: Jikan Api call failed!");
 
-            return JikanSearchRes.Parse(response);
+            var res1Parsed = JikanSearchRes.Parse(response1);
+            var res2Parsed = JikanSearchRes.Parse(response2);
+            return res1Parsed.Concat(res2Parsed).ToList();
         }
 
         public async Task<int?> GetANNId(int animeId)

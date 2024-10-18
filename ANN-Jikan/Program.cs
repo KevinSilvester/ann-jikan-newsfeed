@@ -65,7 +65,7 @@ namespace ANN_Jikan
                             await SearchAnime();
                             break;
                         case SelectActions.CurrentlyAiring:
-                            // await CurrentlyAiring();
+                            await CurrentlyAiring();
                             break;
                         case SelectActions.Exit:
                             run = false;
@@ -148,7 +148,44 @@ namespace ANN_Jikan
             await ListArticle(annID.Value);
         }
 
-        
+        private static async Task CurrentlyAiring()
+        {
+            Console.WriteLine("");
+            AnsiConsole.Write(Separator("📺 Currently Airing"));
+
+            var airingRes = await AnsiConsole
+                .Status()
+                .StartAsync("Getting popular currently airing anime...", async ctx => await jikanService.GetPopularAiring());
+
+            var table = new Table().Border(TableBorder.Rounded).BorderStyle("skyblue1 bold");
+            table.AddColumn("ID");
+            table.AddColumn("Title");
+            table.AddColumn("Ratings");
+
+            for (var i = 0; i < airingRes.Count; i++)
+            {
+                table.AddRow(
+                    i.ToString(),
+                    airingRes[i].title_english?.ToString() ?? airingRes[i].title,
+                    airingRes[i].score?.ToString() ?? "N/A"
+                );
+            }
+            
+            AnsiConsole.Write(table);
+            var id = SelectTableID(airingRes.Count);
+            if (id == -1)
+                return;
+
+            var annID = await jikanService.GetANNId(airingRes[id].mal_id);
+            if (annID == null)
+            {
+                AnsiConsole.MarkupLine(
+                    $"[orangered1 bold]✗[/] No ANN ID found for anime ID [orangered1 bold]{airingRes[id].mal_id}[/]"
+                );
+                return;
+            }
+            await ListArticle(annID.Value);
+        }
 
         private static async Task ListArticle(int annID)
         {
@@ -204,7 +241,7 @@ namespace ANN_Jikan
             }
             catch (Exception)
             {
-                var panel = new Panel("ERROR: Failed to load article")
+                var panel = new Panel("ERROR: Failed to load article" + $"\nURL: {newsRes[id].url}")
                     .RoundedBorder()
                     .BorderStyle("orangered1 bold")
                     .Expand()
@@ -225,7 +262,7 @@ namespace ANN_Jikan
             while (!valid)
             {
                 animeID = AnsiConsole.Ask<string>(
-                    "[deepskyblue1]?[/] Enter ID ([grey54]type EXIT to quite menu[/]):"
+                    "[deepskyblue1]?[/] Enter Table ID ([grey54]type EXIT to quite menu[/]):"
                 );
 
                 if (animeID == "EXIT")

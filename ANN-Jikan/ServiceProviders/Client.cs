@@ -4,19 +4,22 @@ namespace ANN_Jikan.ServiceProviders
 {
     public class Client
     {
-        // private const string BASE_URL = "https://api.jikan.moe/v4/top/anime";
         private readonly RestClient _client;
         private readonly (string, string?)[]? _defaultQueryParams;
 
         public Client(string baseUrl)
         {
-            _client = new RestClient(baseUrl);
+            var options = new RestClientOptions(baseUrl);
+            options.Timeout = TimeSpan.FromMilliseconds(2000);
+            _client = new RestClient(options);
             _defaultQueryParams = null;
         }
 
         public Client(string baseUrl, (string, string?)[] defaultQueryParams)
         {
-            _client = new RestClient(baseUrl);
+            var options = new RestClientOptions(baseUrl);
+            options.Timeout = TimeSpan.FromMilliseconds(2000);
+            _client = new RestClient(options);
             _defaultQueryParams = defaultQueryParams;
         }
 
