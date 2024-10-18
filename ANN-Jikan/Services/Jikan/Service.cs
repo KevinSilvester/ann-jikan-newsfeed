@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace ANN_Jikan.ServiceProviders.Jikan
+namespace ANN_Jikan.Services.Jikan
 {
     public class JikanService
     {
@@ -23,7 +23,7 @@ namespace ANN_Jikan.ServiceProviders.Jikan
 
         public async Task<List<SearchResponseData>> Search(string query)
         {
-            var response = await _apiClient.Get("", new (string, string?)[] { ("q", query) });
+            var response = await _apiClient.Get(new (string, string?)[] { ("q", query) });
             if (response == null)
                 throw new Exception("ServiceError: Jikan Api call failed!");
             return JikanSearchRes.Parse(response);
@@ -32,11 +32,9 @@ namespace ANN_Jikan.ServiceProviders.Jikan
         public async Task<List<SearchResponseData>> GetPopularAiring()
         {
             var response1 = await _apiClient.Get(
-                "",
                 new (string, string?)[] { ("status", "airing"), ("page", "1") }
             );
             var response2 = await _apiClient.Get(
-                "",
                 new (string, string?)[] { ("status", "airing"), ("page", "2") }
             );
 
@@ -50,7 +48,7 @@ namespace ANN_Jikan.ServiceProviders.Jikan
 
         public async Task<int?> GetANNId(int animeId)
         {
-            var response = await _apiClient.Get($"{animeId}/external", null);
+            var response = await _apiClient.Get($"{animeId}/external");
             if (response == null)
                 throw new Exception("ServiceError: Failed to get external links!");
 

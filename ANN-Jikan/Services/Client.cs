@@ -1,6 +1,6 @@
 using RestSharp;
 
-namespace ANN_Jikan.ServiceProviders
+namespace ANN_Jikan.Services
 {
     public class Client
     {
@@ -30,21 +30,14 @@ namespace ANN_Jikan.ServiceProviders
                     request.AddParameter(query[i].Item1, query[i].Item2);
         }
 
-        public async Task<string?> Get(string endpoint, (string, string?)[]? query)
+        private async Task<string?> ExecRequest(RestRequest request)
         {
-            var request = new RestRequest(endpoint);
-
-            AddQueryParameters(request, _defaultQueryParams);
-            AddQueryParameters(request, query);
-
             try
             {
                 var response = await _client.ExecuteGetAsync(request);
 
                 if (!response.IsSuccessful)
-                {
                     throw new Exception(response.StatusDescription);
-                }
 
                 return response.Content;
             }
@@ -52,6 +45,36 @@ namespace ANN_Jikan.ServiceProviders
             {
                 throw new Exception(e.Message);
             }
+        }
+
+        public async Task<string?> Get()
+        {
+            var request = new RestRequest();
+            AddQueryParameters(request, _defaultQueryParams);
+            return await ExecRequest(request);
+        }
+
+        public async Task<string?> Get(string endpoint)
+        {
+            var request = new RestRequest(endpoint);
+            AddQueryParameters(request, _defaultQueryParams);
+            return await ExecRequest(request);
+        }
+
+        public async Task<string?> Get((string, string?)[] query)
+        {
+            var request = new RestRequest();
+            AddQueryParameters(request, _defaultQueryParams);
+            AddQueryParameters(request, query);
+            return await ExecRequest(request);
+        }
+
+        public async Task<string?> Get(string endpoint, (string, string?)[] query)
+        {
+            var request = new RestRequest(endpoint);
+            AddQueryParameters(request, _defaultQueryParams);
+            AddQueryParameters(request, query);
+            return await ExecRequest(request);
         }
     }
 }

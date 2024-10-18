@@ -1,7 +1,8 @@
 using System.Xml.Linq;
 using HtmlAgilityPack;
+using Spectre.Console;
 
-namespace ANN_Jikan.ServiceProviders.ANN
+namespace ANN_Jikan.Services.ANN
 {
     #region Aliases
     using TNewsResponse = List<NewsResponseData>;
@@ -37,13 +38,16 @@ namespace ANN_Jikan.ServiceProviders.ANN
                     if (urlAttr == null || dateAttr == null)
                         throw new Exception("Failed to parse news article");
 
+                    var title = news
+                        .Value.Replace("<cite>", "[palegreen1 italic]")
+                        .Replace("<i>", "[lightsteelblue italic]")
+                        .Replace("</cite>", "[/]")
+                        .Replace("</i>", "[/]");
+
                     return new NewsResponseData
                     {
-                        url =
-                            urlAttr.Value /* .Replace("https://www.animenewsnetwork.com", "")
-                            .Replace(":", "") */
-                        ,
-                        title = news.Value,
+                        url = urlAttr.Value,
+                        title = title,
                         date = dateAttr.Value,
                     };
                 })

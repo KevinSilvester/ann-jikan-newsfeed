@@ -1,7 +1,7 @@
-using ANN_Jikan.ServiceProviders;
-using ANN_Jikan.ServiceProviders.ANN;
+using ANN_Jikan.Services;
+using ANN_Jikan.Services.ANN;
 
-namespace ANN.Jikan.Tests;
+namespace ANN_Jikan.Tests;
 
 public class ANNClientTests
 {
@@ -19,7 +19,7 @@ public class ANNClientTests
     [Fact]
     public async Task TestAnnApiGet()
     {
-        var response = await annApiClient.Get("", new (string, string?)[] { ("anime", "1825") });
+        var response = await annApiClient.Get(new (string, string?)[] { ("anime", "1825") });
         Assert.NotNull(response);
         var responseParsed = ANNNewsRes.Parse(response);
 
@@ -35,7 +35,7 @@ public class ANNClientTests
     [Fact]
     public async Task TestAnnNewsGet()
     {
-        var response = await annNewsClient.Get("", null);
+        var response = await annNewsClient.Get();
         Assert.NotNull(response);
         var responseParsed = ANNNewsArticlesRes.Parse(response);
 

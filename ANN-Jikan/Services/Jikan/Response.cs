@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace ANN_Jikan.ServiceProviders.Jikan
+namespace ANN_Jikan.Services.Jikan
 {
     #region Aliases
     using TExternalLinksResponse = List<ExternalLinksResponseData>;
@@ -17,10 +17,6 @@ namespace ANN_Jikan.ServiceProviders.Jikan
         public static TSearchResponse Parse(string response) => _parser.Parse(response);
     }
 
-    class SearchResponse
-    {
-        public required TSearchResponse data { get; set; }
-    }
 
     public class SearchResponseData
     {
@@ -28,6 +24,11 @@ namespace ANN_Jikan.ServiceProviders.Jikan
         public double? score { get; set; }
         public string? title_english { get; set; }
         public required string title { get; set; }
+    }
+
+    class SearchResponse
+    {
+        public required List<SearchResponseData> data { get; set; }
     }
 
     class SearchResponseParser : IResponseParser<TSearchResponse>

@@ -1,5 +1,5 @@
-using ANN_Jikan.ServiceProviders;
-using ANN_Jikan.ServiceProviders.Jikan;
+using ANN_Jikan.Services;
+using ANN_Jikan.Services.Jikan;
 
 namespace ANN.Jikan.Tests;
 
@@ -18,7 +18,7 @@ public class JikanClientTests
     [Fact]
     public async Task TestJikanSearch()
     {
-        var response = await jikanApiClient.Get("", new (string, string?)[] { ("q", "naruto") });
+        var response = await jikanApiClient.Get(new (string, string?)[] { ("q", "naruto") });
         Assert.NotNull(response);
         var responseParsed = JikanSearchRes.Parse(response);
 
@@ -34,7 +34,7 @@ public class JikanClientTests
     [Fact]
     public async Task TestJikanExternal()
     {
-        var response = await jikanApiClient.Get("20/external", null);
+        var response = await jikanApiClient.Get("20/external");
         Assert.NotNull(response);
         var responseParsed = JikanExtenalLinksRes.Parse(response);
 
