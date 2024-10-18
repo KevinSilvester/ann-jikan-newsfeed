@@ -39,7 +39,7 @@ namespace ANN_Jikan.ServiceProviders.ANN
 
                     return new NewsResponseData
                     {
-                        url = urlAttr.Value,
+                        url = urlAttr.Value.Replace("https://www.animenewsnetwork.com/news/", ""),
                         title = news.Value,
                         date = dateAttr.Value,
                     };

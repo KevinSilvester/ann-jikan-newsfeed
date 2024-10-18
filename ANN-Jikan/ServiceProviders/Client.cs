@@ -40,7 +40,6 @@ namespace ANN_Jikan.ServiceProviders
 
                 if (!response.IsSuccessful)
                 {
-                    Console.WriteLine(response.ErrorMessage);
                     throw new Exception(response.StatusDescription);
                 }
 

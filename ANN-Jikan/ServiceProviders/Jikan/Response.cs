@@ -26,7 +26,8 @@ namespace ANN_Jikan.ServiceProviders.Jikan
     {
         public int mal_id { get; set; }
         public double? score { get; set; }
-        public required string title_english { get; set; }
+        public string? title_english { get; set; }
+        public required string title { get; set; }
     }
 
     class SearchResponseParser : IResponseParser<TSearchResponse>

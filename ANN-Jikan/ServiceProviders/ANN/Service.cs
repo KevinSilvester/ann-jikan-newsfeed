@@ -8,12 +8,12 @@ namespace ANN_Jikan.ServiceProviders.ANN
         public ANNService()
         {
             _apiClient = new Client("https://cdn.animenewsnetwork.com/encyclopedia/api.xml");
-            _newsClient = new Client("");
+            _newsClient = new Client("https://www.animenewsnetwork.com/news/");
         }
 
-        public async Task<List<NewsResponseData>> GetNews(string animeId)
+        public async Task<List<NewsResponseData>> GetNews(int animeId)
         {
-            var response = await _apiClient.Get("", new (string, string?)[] { ("anime", animeId) });
+            var response = await _apiClient.Get("", new (string, string?)[] { ("anime", animeId.ToString()) });
             if (response == null)
                 throw new Exception("ServiceError: ANN Api call failed!");
 
