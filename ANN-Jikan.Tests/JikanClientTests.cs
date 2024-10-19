@@ -1,7 +1,7 @@
 using ANN_Jikan.Services;
 using ANN_Jikan.Services.Jikan;
 
-namespace ANN.Jikan.Tests;
+namespace ANN_Jikan.Tests;
 
 public class JikanClientTests
 {

@@ -1,15 +1,15 @@
-using ANN_Jikan.ServiceProviders.ANN;
-using ANN_Jikan.ServiceProviders.Jikan;
+using ANN_Jikan.Services.ANN;
+using ANN_Jikan.Services.Jikan;
 using Spectre.Console;
 
 namespace ANN_Jikan
 {
     internal class Program
     {
-        enum SelectActions
+        enum MainMenuActions
         {
-            Search,
-            CurrentlyAiring,
+            SearchAnime,
+            ShowCurrentlyAiring,
             Exit,
         }
 
@@ -41,15 +41,18 @@ namespace ANN_Jikan
                     AnsiConsole.Write(Separator("Main Menu"));
 
                     var action = AnsiConsole.Prompt(
-                        new SelectionPrompt<(SelectActions, string)>()
+                        new SelectionPrompt<(MainMenuActions, string)>()
                             .Title("[deepskyblue1 bold]?[/] Choose your action:")
                             .HighlightStyle("skyblue1")
                             .AddChoices(
                                 new[]
                                 {
-                                    (SelectActions.Search, "Search for Anime"),
-                                    (SelectActions.CurrentlyAiring, "Show popular currently airing Anime"),
-                                    (SelectActions.Exit, "Exit application"),
+                                    (MainMenuActions.SearchAnime, "Search for Anime"),
+                                    (
+                                        MainMenuActions.ShowCurrentlyAiring,
+                                        "Show popular currently airing Anime"
+                                    ),
+                                    (MainMenuActions.Exit, "Exit application"),
                                 }
                             )
                             .UseConverter(action => action.Item2)
@@ -61,13 +64,13 @@ namespace ANN_Jikan
 
                     switch (action.Item1)
                     {
-                        case SelectActions.Search:
+                        case MainMenuActions.SearchAnime:
                             await SearchAnime();
                             break;
-                        case SelectActions.CurrentlyAiring:
+                        case MainMenuActions.ShowCurrentlyAiring:
                             await CurrentlyAiring();
                             break;
-                        case SelectActions.Exit:
+                        case MainMenuActions.Exit:
                             run = false;
                             AnsiConsole.WriteLine("\n👋 Exiting application...");
                             break;
@@ -155,7 +158,10 @@ namespace ANN_Jikan
 
             var airingRes = await AnsiConsole
                 .Status()
-                .StartAsync("Getting popular currently airing anime...", async ctx => await jikanService.GetPopularAiring());
+                .StartAsync(
+                    "Getting popular currently airing anime...",
+                    async ctx => await jikanService.GetPopularAiring()
+                );
 
             var table = new Table().Border(TableBorder.Rounded).BorderStyle("skyblue1 bold");
             table.AddColumn("ID");
@@ -170,7 +176,7 @@ namespace ANN_Jikan
                     airingRes[i].score?.ToString() ?? "N/A"
                 );
             }
-            
+
             AnsiConsole.Write(table);
             var id = SelectTableID(airingRes.Count);
             if (id == -1)
@@ -219,37 +225,61 @@ namespace ANN_Jikan
             if (id == -1)
                 return;
 
-            Console.WriteLine(newsRes[id].url);
+            var headingMarkup = new Markup(
+                $"{newsRes[id].title}\n[grey54 italic]({newsRes[id].url})[/]"
+            );
 
-            try
-            {
-                var article = await AnsiConsole
-                    .Status()
-                    .StartAsync(
-                        $"Getting article \"{newsRes[id].title}\"...",
-                        async ctx => await annService.GetNewsArticle(newsRes[id].url)
-                    );
+            var heading = new Panel(Align.Center(headingMarkup))
+                .Padding(0, 0, 0, 0)
+                .RoundedBorder()
+                .BorderStyle("skyblue1 bold")
+                .Expand();
 
-                var panel = new Panel(article)
-                    .RoundedBorder()
-                    .BorderStyle("skyblue1 bold")
-                    .Expand()
-                    .Padding(4, 2, 4, 2)
-                    .Expand();
-                panel.Header = new PanelHeader($"Article: {newsRes[id].title}", Justify.Center);
-                AnsiConsole.Write(panel);
-            }
-            catch (Exception)
+            var error = new Panel("ERROR: Failed to load article" + $"\nURL: {newsRes[id].url}")
+                .RoundedBorder()
+                .BorderStyle("orangered1 bold")
+                .Expand()
+                .Padding(4, 2, 4, 2)
+                .Expand();
+            error.Header = new PanelHeader($"Article: {newsRes[id].title}", Justify.Center);
+
+            var maxRetries = 3;
+            var retries = 0;
+            var isError = false;
+
+            while (retries < maxRetries)
             {
-                var panel = new Panel("ERROR: Failed to load article" + $"\nURL: {newsRes[id].url}")
-                    .RoundedBorder()
-                    .BorderStyle("orangered1 bold")
-                    .Expand()
-                    .Padding(4, 2, 4, 2)
-                    .Expand();
-                panel.Header = new PanelHeader($"Article: {newsRes[id].title}", Justify.Center);
-                AnsiConsole.Write(panel);
+                try
+                {
+                    var retryAlert = isError
+                        ? $" [red italic](Retrying Attempt {retries + 1}/{maxRetries}[/]"
+                        : "";
+                    var article = await AnsiConsole
+                        .Status()
+                        .StartAsync(
+                            $"Getting article \"{newsRes[id].title}\"{retryAlert}...",
+                            async ctx => await annService.GetNewsArticle(newsRes[id].url)
+                        );
+                    var body = new Panel(article)
+                        .RoundedBorder()
+                        .BorderStyle("skyblue1 bold")
+                        .Expand()
+                        .Padding(4, 2, 4, 2)
+                        .Expand();
+                    AnsiConsole.Write(heading);
+                    AnsiConsole.Write(body);
+                    isError = false;
+                    break;
+                }
+                catch (Exception)
+                {
+                    isError = true;
+                    retries++;
+                }
             }
+
+            if (isError)
+                AnsiConsole.Write(error);
         }
 
         private static int SelectTableID(int count)
