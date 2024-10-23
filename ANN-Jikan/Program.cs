@@ -130,7 +130,7 @@ namespace ANN_Jikan
             {
                 table.AddRow(
                     i.ToString(),
-                    searchResults[i].title_english?.ToString() ?? searchResults[i].title,
+                    $"{(searchResults[i].title_english?.ToString() ?? searchResults[i].title).EscapeMarkup()}",
                     searchResults[i].score?.ToString() ?? "N/A"
                 );
             }
@@ -243,7 +243,7 @@ namespace ANN_Jikan
                 .Expand();
             error.Header = new PanelHeader($"Article: {newsRes[id].title}", Justify.Center);
 
-            var maxRetries = 3;
+            var maxRetries = 5;
             var retries = 0;
             var isError = false;
 
