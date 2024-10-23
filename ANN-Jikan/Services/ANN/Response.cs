@@ -40,8 +40,10 @@ namespace ANN_Jikan.Services.ANN
 
                     var title = news
                         .Value.Replace("<cite>", "[palegreen1 italic]")
+                        .Replace("<Cite>", "[palegreen1 italic]")
                         .Replace("<i>", "[lightsteelblue italic]")
                         .Replace("</cite>", "[/]")
+                        .Replace("</Cite>", "[/]")
                         .Replace("</i>", "[/]");
 
                     return new NewsResponseData
