@@ -100,12 +100,24 @@ namespace ANN_Jikan
 
             Console.Write("\x1B[1F\x1B[J");
 
-            var searchResults = await AnsiConsole
-                .Status()
-                .StartAsync(
-                    $"Searching for anime: ${query}...",
-                    async ctx => await jikanService.Search(query)
+            List<SearchResponseData> searchResults;
+
+            try
+            {
+                searchResults = await AnsiConsole
+                    .Status()
+                    .StartAsync(
+                        $"Searching for anime: {query}...",
+                        async ctx => await jikanService.Search(query)
+                    );
+            }
+            catch
+            {
+                AnsiConsole.MarkupLine(
+                    $"[orangered1 bold]✗[/] Failed to search for anime: [orangered1 bold]{query}[/]"
                 );
+                return;
+            }
 
             Console.Write("\x1B[1F\x1B[J");
             AnsiConsole.MarkupLine(
